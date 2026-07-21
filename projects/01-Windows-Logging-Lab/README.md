@@ -1,4 +1,4 @@
-# Project 01 - Windows Logging Lab
+# Project 01 - Windows Security Monitoring
 
 ## Objective
 Prepare a Windows 11 virtual machine for SOC monitoring and learn how Windows records system activity.
