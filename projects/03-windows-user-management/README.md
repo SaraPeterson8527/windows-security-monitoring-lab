@@ -32,13 +32,13 @@ This project demonstrates basic Windows user administration tasks commonly perfo
 ![User Accounts](screenshots/01-local-users-and-groups-overview.png)
 
 ### Administrator Privileges
-![ITAdmin Administrators Group](screenshots/07-Employee2-account-deleted-confirmation.png)
+![ITAdmin Administrators Group](screenshots/10-ITAdmin-member-properties.png)
 
 ### Account Disablement
-![Disabled Intern Account](screenshots/10-ITAdmin-member-properties.png)
+![Disabled Intern Account](screenshots/08-Intern-account-disabled.png)
 
 ### Account Removal
-![Deleted Employee2 Account](screenshots/11-Administrators-Groups-Members.png)
+![Deleted Employee2 Account](screenshots/06-Employee2-account-deleted.png)
 
 ## Findings
 
