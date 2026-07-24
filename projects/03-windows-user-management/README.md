@@ -39,7 +39,3 @@ This project demonstrates basic Windows user administration tasks commonly perfo
 
 ### Account Removal
 ![Deleted Employee2 Account](screenshots/06-Employee2-account-deleted.png)
-
-## Findings
-
-See findings.md for observations and lessons learned.
