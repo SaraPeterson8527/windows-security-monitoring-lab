@@ -3,6 +3,7 @@
 ## Baseline Collection 
 
 Date: October 22, 2026
+
 Purpose: Establish a baseline of Windows logging activity before adding additional monitoring tools.
 
 ## System Information 
