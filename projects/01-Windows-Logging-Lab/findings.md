@@ -22,7 +22,31 @@ Purpose: Establish a baseline of Windows logging activity before adding addition
 - The cause of the failed logon has not yet been confirmed.  
 
 ### System Logs
-Observations: To be documented after reviewing the System log.
+
+#### Oberservation 1: Microsoft Edge Update Service Failure
+
+- **Source:** Service Control Manager
+- **Event ID:** 7000
+- **Message:** Microsoft Edge Update service failed to respond to a start or control request in a timely fashion.
+
+**Analysis:**
+Windows reports that the Microsoft Edge Update service did not respond within the expected time. This may indicate a temporary service startup or responsiveness issue.
+
+**Conclusion:**
+The event alone does not establish a security incident. Additional context would be needed to determine whether the issue persisted.
+
+#### Observation 2: LUAFV Service Failure
+
+- **Source:** Service Control Manager
+- **Event ID:** 7000
+- **Service:** 'luafv'
+- **Message:** The service failed to start because its driver was blocked from loading.
+
+**Analysis:**
+The 'luafv' component is associated with Windows UAC file virtualization. The event indicated a driver-loading problem, but the specific cause has not been confirmed.
+
+**Conclusion:**
+The event is documented for further review. It should not be classified as malicious without additional evidence.
 
 ### Application Logs
 Observations: To be documented after reviewing the Application log.
