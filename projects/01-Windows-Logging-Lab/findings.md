@@ -76,4 +76,20 @@ The event appears related to Windows licensing rather than a confirmed security 
 - The Logon audit setting displayed Success and Failure.
 - The Logoff audit setting displayed Success.
 - The Account Logon audit setting displayed No Auditing.
-- No audit policy changed have been made as part of baseline review. 
+- No audit policy changed have been made as part of baseline review.
+
+## Sysmon Monitoring
+
+**Inital Event Collection** 
+
+- **Log Location:** Applications and Services Logs -> Microsoft -> Windows -> Sysmon -> Operational
+- **Observed Events:** Approximately 26 events
+- **Status:** Sysmon service confirmed running
+
+**Analysis:**
+
+Sysmon was installed and started successfully. The Sysmon Operational log contains approximately 26 events, indicating that event records are present.
+
+**Conclusion:**
+
+Initial Sysmon event collection is visible. The event types and details have not yet been reviewed, so further analysis is needed to determine what activity is being recorded.
